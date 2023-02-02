@@ -1,4 +1,4 @@
-> React의 기본 개념을 정리한 문서
+> React의 기본 개념 및 용어 정리한 문서
 
 # What is React?
 
