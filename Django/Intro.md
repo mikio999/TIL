@@ -43,6 +43,23 @@
 - Administration site : 사이트 관리자가 사이트의 모든 데이터 모델을 손쉽게 작성, 편집할 수 있는 관리 페이지를 제공받을 수 있음.
 - Serializing data (데이터 직렬화): Django를 통해 데이터를 XML 또는 JSON으로 직렬화하고 제공받을 수 있음.
 
+## Django 실행
+
+```
+python3 manage.py runserver
+```
+
+## CSRF exempt
+
+```
+from django.views.decorators.csrf import csrf_exempt
+```
+
+```
+@csrf_exempt
+def create(request):
+```
+
 ### 참고문헌
 
 - https://www.djangoproject.com/start/overview/
