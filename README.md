@@ -6,6 +6,9 @@
 ## Algorithm
 - LeetCode, 백준 등 각종 알고리즘 문제들을 정리
 
+## Django
+- 장고 정리
+
 ## Javascript
 - 자바스크립트 정리
 
