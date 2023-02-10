@@ -33,7 +33,7 @@
 - URLs : URL mapper는 요청 URL을 기준으로 HTTP 요청을 적절한 뷰(view)로 보내주기 위해 사용됨. 또한 URL에 나타나는 특정한 문자열이나 숫자의 패턴을 일치시켜 데이터로서 뷰 함수에 전달할 수 있음.
 - View: HTTP 요청을 수신하고 응답을 반환하는 요청 처리 함수. View는 Model을 통해 요청에 필요한 데이터에 접근하고, Templates에 응답의 서식 설정을 위임한다.
 - Models: 응용프로그램의 데이터 구조를 정의, DB의 기록을 관리(add, modify, delete)하고 DB의 쿼리를 제공하는 파이썬의 객체.
-- Templates: 파일 구조나 레이아웃을 정의 (ex. HTML 페이지), View는 Templates를 이용하여 동적으로 HTML page를 만들고 Models에서 가져온 데이터로 채운다. Templates로 모든 파일의 구조를 정의할 수 있으며 반드시 HTML 타입을 필요는 없다.
+- Templates: 파일 구조나 레이아웃을 정의 (ex. HTML 페이지), View는 Templates를 이용하여 동적으로 HTML page를 만들고 Models에서 가져온 데이터로 채운다. Templates로 모든 파일의 구조를 정의할 수 있으며 반드시 HTML 타입일 필요는 없다.
 
 ## Django의 추가 기능
 
